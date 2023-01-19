@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(37, 51, 50);
+    background-size: cover;
+    
+}
+nav{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 18px;
+    cursor: pointer;
+}
+
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    margin: 10px 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;  
+    color: white; 
+}
+nav ul li a:hover{
+    color: #ea1538;
+    transition: 3s;
+}
+
+nav .btn{
+    border: none;
+    color: white;
+    text-decoration: none;
+    margin-right: 18px;
+    padding: 10px;
+}
+
+nav .btn:hover{
+    border: none;
+    background: grey;
+    border-radius: 5px;
+    transform: scale(1.2);
+    transition: 50ms;
+}
+
+
+section{
+    padding: 200px 8%;
+    color: white;
+}
+
+section ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 2rem;
+}
+
+.box{
+    padding: 0px 20px 10px 20px;
+    background: transparent;
+    box-shadow: 5px 30px 56.1276px grey;
+    border-radius: 10px;
+    position: relative;
+    transition: all .35s ease;
+}
