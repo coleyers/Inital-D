@@ -3,20 +3,10 @@ body{
     font-size: 15px;
     margin: 0;
     padding: 0;
+    background-color:gray;
+    background-size: cover;
 }
-body .parallax {
-  /* The image used */
-  background-image: url("merch/merch\ shoes.jpg");
 
-  /* Set a specific height */
-  min-height: 500px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 nav{
     position:fixed;
     top: 0;
@@ -78,7 +68,7 @@ nav .btn:hover{
 }
 
 .contentlink a{
-    color: transparent;
+    color: white;
     font-size: 25px;
     position:absolute;
     margin-left: 9%;
@@ -100,26 +90,13 @@ section .shop .container{
     position: absolute;
 }
 
-section{
-    padding: 200px 8%;
-    color: transparent  ;
-}
 
-section ul{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px, auto));
-    align-items: center;
-    gap: 2rem;
-    text-align: center;
-    cursor: pointer;
-    padding-top: 2rem;
-}
-.box {
+.box{
+    padding: 0px 20px 10px 20px;
+    background: transparent;
+    box-shadow: 5px 30px 56.1276px grey;
+    border-radius: 10px;
     position: relative;
-    margin-top: 5%;
-    margin-left: 10%;
-    margin-right: 70%;
-    background-color: transparent;
+    transition: all .35s ease;
 }
-
 
